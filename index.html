@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick Sign</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>
-        <div class = "top">
-            <div class="black">
+    <div class="main">
+        <h1>QUICK SIGN!!</h1>
+        <div class="top">
+            <div class="block">
                 <p>
-                    Text Color Picker
-                    <input type="color" class="form-control" id="colorPicker"/>
+                    Text Color Picker <br> <br>
+                    <input type="color" class="form-control" id="colorPicker" />
                 </p>
             </div>
-            <div class="black">
+            <div class="block">
                 <p>
-                    Background Color Picker
-                    <input type="color" class="form-control" id="backgroundPicker"/>
+                    Background Color Picker <br> <br>
+                    <input type="color" class="form-control" id="backgroundPicker" />
+                </p>
+            </div>
+            <div class="block">
+                <p>
+                    Font Size <br> <br>
+                    <select class="form-control" id="fontSize">
+                        <option value="5">5px</option>
+                        <option value="10">10px</option>
+                        <option value="20">20px</option>
+                        <option value="30">30px</option>
+                        <option value="40">40px</option>
+                        <option value="50">50px</option>
+                    </select>
                 </p>
             </div>
         </div>
+        <canvas class="canvas" id="myCanvas" width="800" height=" 500" style="border: 2px solid black;"></canvas>
+        <div class="bottom">
+            <button type="button" class="btn btn-danger" id="clearButton">Clear</button>
+            <button type="button" class="btn btn-success" id="saveButton">Save & Download</button>
+            <button type="button" class="btn btn-warning" id="retrieveButton">Retrieve Saved Signature</button>
+        </div>
     </div>
+    <script src="quickSign.js"></script>
 </body>
+
 </html>
