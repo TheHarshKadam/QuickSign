@@ -1,4 +1,5 @@
-# QuickSign
+# [Signaturely](https://signaturely.netlify.app/)
+
 Web app used to draw and generate and save signature quickly
 
 <img src = "https://github.com/user-attachments/assets/1722d3aa-2506-44aa-a833-1f1a85a84d0b" width =900px, height = 500px/>
