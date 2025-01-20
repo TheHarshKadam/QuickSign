@@ -1,4 +1,4 @@
-# [Signaturely](https://signaturely.netlify.app/)
+# Signaturely
 
 Web app used to draw and generate and save signature quickly
 
@@ -8,4 +8,6 @@ Web app used to draw and generate and save signature quickly
 Signature gets downloaded in PNG format.
 
 <img src= "https://github.com/user-attachments/assets/3b906243-d263-4fdf-8efc-d988dae0274f" width = 800px, height =400px/>
+
+## [Click Me for Live website](https://signaturely.netlify.app/)
 
